@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Cafe Landing Page</title>
+</head>
+<body>
+    <!-- ==================== Header ==================== -->
+    <header id="site-header">
+        <div class="container header-inner">
+        
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Coffee Shop Logo">
+            </div>
+        
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#menu-section">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#site-footer">Contact</a>
+                    </li>
+                
+                </ul>
+            </nav>
+        
+            <div class="header-cta">
+            
+                <a href="https://instagram.com/yourpage" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/212600000000" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            
+            </div>
+        
+        </div>
+    
+        <!-- ==================== Hero ==================== -->
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <img id="PancakeIcon" src="images/pancake-icon.png" alt="Pancake Icon">
+                <h1 class="hero-title">
+                    Welcome to CoffeeName
+                </h1>
+                <img id="CoffeeIcon" src="images/coffee-icon.png" alt="Coffee Icon">
+            </div>
+            <div class="hero-ctas">
+                <a href="#menu-section" class="explore-btn">Explore it</a>
+                <a href="#menu-section" class="arrow"><i class="fa-solid fa-share"></i></a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- ==================== Menu ==================== -->
+        <section id="menu-section" class="menu container">
+            <h2 class="section-title">Menu</h2>
+
+            <div class="menu-categories">
+                <div class="category scroll-reveal">
+                    <a href="#drinks">
+                        <img src="images/Drinks.png" alt="Drinks Menu">
+                        <p>Drinks</p>
+                    </a>
+                </div>
+                <div class="category scroll-reveal">
+                    <a href="#pancakes">
+                        <img src="images/Pancake.png" alt="Pancakes Menu">
+                        <p>Pancakes</p>
+                    </a>
+                </div>
+                <div class="category scroll-reveal">
+                    <a href="#waffles">
+                        <img src="images/Waffle.png" alt="Waffles Menu">
+                        <p>Waffles</p>
+                    </a>
+                </div>
+                <div class="category scroll-reveal">
+                    <a href="#crepes">
+                        <img src="images/Crepe.png" alt="Crepes Menu">
+                        <p>Crepes</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-types">
+
+                <!-- Drinks -->
+                <h3>Drinks</h3>
+
+                <div class="menu-group" id="drinks">
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Mojito.jpg" alt="Mojito drink">
+                        <p>Mojito</p>
+                    </div>
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Rolled-Ice-Cream.jpg" alt="Rolled Ice Cream drink">
+                        <p>Rolled Ice Cream</p>
+                    </div>
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Rice-Cereal-Joy-Cup.jpg" alt="Rice Cereal Joy Cup">
+                        <p>Rice Cereal Joy Cup</p>
+                    </div>
+
+                </div>
+                <div class="more-menu scroll-reveal">
+                    <p class="sub-menu">Click here to</p>
+                    <i class="fa-solid fa-share"></i>
+                    <a href="#drinks" class="btn">See More</a>
+                </div>
+
+
+                <!-- Pancakes -->
+                <h3>Pancakes</h3>
+
+                <div class="menu-group" id="pancakes">
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Kinder-Pancake.jpg" alt="Kinder Pancake">
+                        <p>Kinder</p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Chocolate-Pancake.jpg" alt="Chocolate Pancake">
+                        <p>Chocolate</p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Lotus-Pancake.jpg" alt="Lotus Pancake">
+                        <p>Lotus</p>
+                    </div>
+
+                </div>
+                <div class="more-menu scroll-reveal">
+                    <p class="sub-menu">Click here to</p>
+                    <i class="fa-solid fa-share"></i>
+                    <a href="#pancakes" class="btn">See More</a>
+                </div>
+
+
+                <!-- Waffles -->
+                <h3>Waffles</h3>
+
+                <div class="menu-group" id="waffles">
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Mix-Chocolate-Waffle.jpg" alt="Mix Chocolate Waffle">
+                        <p>Mix Chocolate</p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Pistachio-Waffle.jpg" alt="Pistachio Waffle">
+                        <p>Pistachio </p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Black-Chocolate-Waffle.jpg" alt="Black Chocolate Waffle">
+                        <p>Black Chocolate</p>
+                    </div>
+
+                </div>
+                <div class="more-menu scroll-reveal">
+                    <p class="sub-menu">Click here to</p>
+                    <i class="fa-solid fa-share"></i>
+                    <a href="#waffles" class="btn">See More</a>
+                </div>
+
+
+                <!-- Crepes -->
+                <h3>Crepes</h3>
+
+                <div class="menu-group" id="crepes">
+
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Chocolate-Crepe.jpg" alt="Chocolate Crepe">
+                        <p>Chocolate</p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Pistachio-Crepe.jpg" alt="Pistachio Crepe">
+                        <p>Pistachio</p>
+                    </div>
+                    <div class="menu-item scroll-reveal">
+                        <img src="images/Lotus-Crepe.jpg" alt="Lotus Crepe">
+                        <p>Lotus</p>
+                    </div>
+
+                </div>
+                <div class="more-menu scroll-reveal">
+                    <p class="sub-menu">Click here to</p>
+                    <i class="fa-solid fa-share"></i>
+                    <a href="#crepes" class="btn">See More</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ==================== About ==================== -->
+        <section id="about" class="about container scroll-reveal">
+            <div id="content">
+                <h2>Why Choose Us?</h2>
+                <p>A cozy and modern café offering freshly brewed coffee, homemade pastries, and a warm atmosphere.</p>
+            </div>
+
+            <div class="about-image">
+                <img src="images/logo.jpg" alt="About our Cafe">
+            </div>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ==================== Footer ==================== -->
+    <footer id="site-footer" class="footer scroll-reveal">
+
+        <div class="footer-ctas">
+            <img src="images/logo.jpg" alt="Cafe Logo Footer" id="footer-image">
+            <div id="footer-icon">
+                <a href="https://instagram.com/yourpage" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/212600000000" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+            <h4>Working hours </h4>
+            <p>From 09:00 to 00:00</p>
+            <p>Avenue 24 Novembre N13 Laayoune</p>
+            <p>08 08 58 58 80</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Menu</h4>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#menu-section">Menu</a></p>
+            <p><a href="#about">About</a></p>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== Coffee Cinematic Transition ===== -->
+    <div id="coffee-transition">
+        <img id="coffee-cup" src="images/coffee-cup.png" alt="Cup">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
